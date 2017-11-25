@@ -71,6 +71,14 @@ main_page_head = '''
         font-family: 'Source Sans Pro', sans-serif;
         
         }
+        
+        h3,h4{
+        font-size:26px;
+        margin-left:24px;
+        border:1px solid black;
+        width:134px;
+        border-radius:20px;
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -96,6 +104,8 @@ main_page_head = '''
             $(this).next("div").show("fast", showNext);
           });
         });
+        
+        
     </script>
 </head>
 '''
@@ -130,6 +140,7 @@ main_page_content = '''
     <div class="container">
       {movie_tiles}
     </div>
+    
   </body>
 </html>
 '''
